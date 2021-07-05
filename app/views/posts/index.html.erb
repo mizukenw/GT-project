@@ -1,0 +1,8 @@
+<% @posts.each do |post| %>
+  <p><%= post.caption %></p>
+  <%= video_tag post.movies.first.video %>
+<% end %>
+
+<% if user_signed_in? %> 
+  <%= link_to "サインアウト", destroy_user_session_path, method: :delete %>
+<% end %>
