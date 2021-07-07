@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, .0975);
+  height: 77px;
+  &__brand {
+    height: 70px;
+    width: 176px;
+    background-size: 114px;
+  }
+  &__mainLogo {
+    background-repeat: no-repeat;
+    background-image: url("~logo.png");
+    background-size: contain;
+  }
+}
+
+.nav-item {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
