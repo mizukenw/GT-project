@@ -19,6 +19,15 @@
   margin: 50px auto;
 }
 
+.logo-img {
+  background-image: url("~logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+  margin: 0px;
+  padding-right: 10px;
+}
 
 .form-control {
   border: 1px solid #dcdfe6;

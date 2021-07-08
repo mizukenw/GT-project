@@ -60,3 +60,4 @@ gem 'bootstrap', '4.5.3'
 gem 'jquery-rails'
 gem 'devise'
 gem 'carrierwave', '~> 1.0'
+gem "mini_magick"
